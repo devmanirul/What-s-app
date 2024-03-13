@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's app</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <main class="flex flex-row bg-[#00A481] pt-4 pl-4">
+        <secrion class="left w-4/12 h-full ">
+            <header class="bg-[#F0F2F5] flex flex-col">
+                <nav class=" flex flex-row justify-between items-center p-3">
+                    <div class="">
+                        <img src="./images/avarter.png" alt="" class="w-9 h-9 rounded-full cursor-pointer">
+                    </div>
+                    <div class="flex flex-row justify-between items-center gap-5">
+                        <img src="./images/group.png" alt="" class="w-5 h-5 rounded-full cursor-pointer">
+                        <img src="./images/status.png" alt="" class="w-5 h-5 rounded-full cursor-pointer">
+                        <img src="./images/channels.png" alt="" class="w-5 h-5 rounded-full cursor-pointer">
+                        <img src="./images/new-chat.png" alt="" class="w-5 h-5 rounded-full cursor-pointer">
+                        <img src="./images/more.png" alt="" class="w-5 h-5 rounded-full cursor-pointer">
+                    </div>
+                </nav>
+                <div class="relative bg-[#FFFFFF] py-2 flex flex-row items-center gap-2 px-2">
+                    <input type="text" placeholder="Search or start new chat"
+                        class="w-full border rounded-md py-2 pl-10 pr-4 outline-none bg-[#F0F2F5]">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <img src="./images/search.png" alt="" class="w-4 h-4">
+                    </div>
+                    <img src="./images/filter.png" alt="" class="w-5 h-6">
+                </div>
+            </header>
+            <hr class="">
+        </secrion>
+        <secrion class="right"></secrion>
+    </main>
+</body>
+
+</html>
