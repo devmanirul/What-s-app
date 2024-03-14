@@ -8,10 +8,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="">
     <main class="flex flex-row w-full">
         <!-- left section -->
-        <section class="flex flex-col w-[418px] h-full">
+        <section class="flex flex-col w-[30.5%] h-screen">
             <div class="bg-[#00A481] pt-4 pl-4 fixed w-[418px]">
                 <!-- left header -->
                 <header class="bg-[#F0F2F5]">
@@ -19,12 +19,17 @@
                         <div class="">
                             <img src="./images/avarter.png" alt="" class="w-9 h-9 rounded-full cursor-pointer">
                         </div>
-                        <div class="flex flex-row justify-between items-center gap-5">
-                            <img src="./images/group.png" alt="" class="w-5 h-5 rounded-full cursor-pointer">
+                        <div class="flex flex-row justify-between items-center gap-5 pl-40">
+                            <div class="relative group">
+                                <img src="./images/group.png" alt="" class="w-5 h-5 rounded-full cursor-pointer">
+                                <div class="absolute hover:group-block">
+                                    <p class="">Communities</p>
+                                </div>
+                            </div>
                             <img src="./images/status.png" alt="" class="w-5 h-5 rounded-full cursor-pointer">
                             <img src="./images/channels.png" alt="" class="w-5 h-5 rounded-full cursor-pointer">
                             <img src="./images/new-chat.png" alt="" class="w-5 h-5 rounded-full cursor-pointer">
-                            <img src="./images/more.png" alt="" class="w-5 h-5 rounded-full cursor-pointer">
+                            <img src="./images/more.png" alt="" class="w-4 h-4 rounded-full cursor-pointer">
                         </div>
                         <hr class="">
                     </nav>
@@ -32,239 +37,270 @@
                         <input type="text" placeholder="Search or start new chat"
                             class="w-full border rounded-md py-2 pl-10 pr-4 outline-none bg-[#F0F2F5]">
                         <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                            <img src="./images/search.png" alt="" class="w-4 h-4">
+                            <img src="./images/search.png" alt="" class="w-4 h-4 ml-2 cursor-pointer">
                         </div>
-                        <img src="./images/filter.png" alt="" class="w-5 h-6">
+                        <img src="./images/filter.png" alt="" class="w-5 h-6 cursor-pointer">
                     </div>
                 </header>
                 <hr class="">
             </div>
-            <div class="bg-[#E0DFDC] pl-4 overflow-hidden overflow-y-auto w-[418px]">
+            <div class="bg-[#E0DFDC] pl-4 overflow-hidden overflow-y-auto w-[418px] pt-[135px]">
                 <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
                     <div class="">
                         <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
                     </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
+                                <p class="text-gray-500">Amar to Linkedin account..</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">10:30 AM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
                         </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                        <hr class="">
+                    </div>
+                </div>
+                <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
+                    <div class="">
+                        <img src="./images/manik.png" alt="" class="w-11 h-11 rounded-full">
+                    </div>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Md Manik mia</h3>
+                                <p class="text-gray-500">Bro how are you koi asen?</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">10:30 AM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
                         </div>
+                        <hr class="">
+                    </div>
+                </div>
+                <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
+                    <div class="">
+                        <img src="./images/mofajjol.png" alt="" class="w-11 h-11 rounded-full">
+                    </div>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Mofajjol Hossain</h3>
+                                <p class="text-gray-500">Vai kmn asen? koi asen ak?</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">14:30 PM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
+                        </div>
+                        <hr class="">
+                    </div>
+                </div>
+                <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
+                    <div class="">
+                        <img src="./images/helal.png" alt="" class="w-11 h-11 rounded-full">
+                    </div>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Md Helal Uddin</h3>
+                                <p class="text-gray-500">basar sobai kmn ase ? koi?</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">17:20 PM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
+                        </div>
+                        <hr class="">
                     </div>
                 </div>
                 <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
                     <div class="">
                         <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
                     </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
+                                <p class="text-gray-500">Amar to Linkedin account..</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">10:30 AM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
                         </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
+                        <hr class="">
                     </div>
                 </div>
                 <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
                     <div class="">
                         <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
                     </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
+                                <p class="text-gray-500">Amar to Linkedin account..</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">10:30 AM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
                         </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
+                        <hr class="">
                     </div>
                 </div>
                 <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
                     <div class="">
                         <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
                     </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
+                                <p class="text-gray-500">Amar to Linkedin account..</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">10:30 AM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
                         </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
+                        <hr class="">
                     </div>
                 </div>
                 <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
                     <div class="">
                         <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
                     </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
+                                <p class="text-gray-500">Amar to Linkedin account..</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">10:30 AM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
                         </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
+                        <hr class="">
                     </div>
                 </div>
                 <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
                     <div class="">
                         <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
                     </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
+                                <p class="text-gray-500">Amar to Linkedin account..</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">10:30 AM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
                         </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
+                        <hr class="">
                     </div>
                 </div>
                 <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
                     <div class="">
                         <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
                     </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
+                                <p class="text-gray-500">Amar to Linkedin account..</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">10:30 AM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
                         </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
+                        <hr class="">
                     </div>
                 </div>
                 <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
                     <div class="">
                         <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
                     </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
+                                <p class="text-gray-500">Amar to Linkedin account..</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">10:30 AM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
                         </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
+                        <hr class="">
                     </div>
                 </div>
                 <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
                     <div class="">
                         <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
                     </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
+                    <div class="">
+                        <div class="flex flex-row justify-between gap-9">
+                            <div class="flex flex-col">
+                                <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
+                                <p class="text-gray-500">Amar to Linkedin account..</p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <p class="text-gray-500">10:30 AM</p>
+                                <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                            </div>
                         </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
+                        <hr class="">
                     </div>
                 </div>
-                <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
+                <div class="bg-[#FFFFFF] flex flex-row justify-center items-center gap-2 px-4 py-4">
                     <div class="">
-                        <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
+                        <img src="./images/padlock.png" alt="" class="w-5 h-5 ">
                     </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
-                        </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
-                    <div class="">
-                        <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
-                    </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
-                        </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
-                    <div class="">
-                        <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
-                    </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
-                        </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-[#FFFFFF] hover:bg-[#F0F2F5] flex flex-row gap-4 px-4 py-2">
-                    <div class="">
-                        <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
-                    </div>
-                    <div class="flex flex-row justify-between gap-9">
-                        <div class="flex flex-col">
-                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                            <p class="text-gray-500">Amar to Linkedin account nai</p>
-                        </div>
-                        <div class="flex flex-col gap-2">
-                            <p class="text-gray-500">10:30 AM</p>
-                            <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                        </div>
-                    </div>
+                    <p class="text-gray-500 text-xs font-light">Your personal messages are <span
+                            class="cursor-pointer text-[#5591F1]">end to end encrypted</span></p>
                 </div>
             </div>
         </section>
         <!-- right section -->
-        <section class="flex flex-col h-full w-[calc(100%-418px)]">
-            <!-- with er kaj ase akhane -->
-            <div class="bg-[#00A481] pt-4 fixed w-[960px]">   
+        <section class="flex flex-col w-[59.5%] h-screen">
+            <!--  -->
+            <div class="bg-[#00A481] pt-4 fixed h-[135px]">
                 <!-- right header -->
                 <header class="">
-                    <nav class="flex flex-row justify-between items-center">
-                            <div class="bg-[#F0F2F5] flex flex-row justify-between items-center gap-4 px-4 py-1">
-                                <div class="flex flex-row gap-2">
-                                    <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
-                                    <div class="flex flex-row justify-center items-center gap-9">
-                                        <div class="flex flex-col">
-                                            <h3 class="text-[#000] text-lg font-medium">Mahbub Bro</h3>
-                                            <p class="text-gray-500">Last seen today at 11:49PM</p>
-                                        </div>
+                    <nav class="flex flex-row justify-between items-center w-[960px]">
+                        <div class="w-[930px] bg-[#F0F2F5] flex flex-row justify-between items-center gap-4 px-4 py-2">
+                            <button class="flex flex-row items-center gap-2">
+                                <img src="./images/mahabub.png" alt="" class="w-11 h-11 rounded-full">
+                                <div class="flex flex-row justify-center items-center gap-9">
+                                    <div class="flex flex-col">
+                                        <h3 class="text-[#352F21] text-base font-normal">Mahbub Bro</h3>
                                     </div>
                                 </div>
-                                <div class="flex flex-row justify-center items-center gap-3">
-                                    <div class="flex flex-row justify-center items-center gap-2 border-2 rounded-full h-min p-3">
-                                        <img src="./images/video-camera.png" alt="" class="w-4 h-4">
-                                        <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
-                                    </div>
-                                    <img src="./images/search.png" alt="" class="w-4 h-4">
-                                    <img src="./images/more.png" alt="" class="w-4 h-4">
-                                </div>
+                            </button>
+                            <div class="flex flex-row justify-center items-center gap-3">
+                                <button
+                                    class="flex flex-row justify-center items-center gap-2 border-2 rounded-full h-min p-3">
+                                    <img src="./images/video-camera.png" alt="" class="w-4 h-4">
+                                    <img src="./images/down-arrow.png" alt="" class="w-4 h-4">
+                                </button>
+                                <img src="./images/search.png" alt="" class="w-4 h-4 cursor-pointer">
+                                <img src="./images/more.png" alt="" class="w-4 h-4 cursor-pointer">
                             </div>
+                        </div>
                     </nav>
                 </header>
+                <div class="bg-[#EFEAE2]">
+
+                </div>
             </div>
         </section>
     </main>
